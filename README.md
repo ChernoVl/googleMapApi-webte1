@@ -1,3 +1,5 @@
+http://147.175.121.202/~xchernov/z5m/
+
 # googleMapApi-webte1
 # Zadanie:
 Na stránke si zobrazte mapu pomocou Google maps, na ktorej bude blízke okolie FEI STU. Budovu fakulty označte markerom a vedľa neho uveďte, k čomu to označenie patrí (príklad označenia je na nižšie uvedenom obrázku). Ak niekedy neskôr užívateľ klikne na zobrazený marker, tak sa mu v popup okne zobrazia GPS súradnice tohto miesta.
