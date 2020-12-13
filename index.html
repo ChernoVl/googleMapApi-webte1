@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='sk'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href='Red_Pin.png'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&display=swap" rel="stylesheet">
+
+    <title>Ako sa dostať do FEI</title>
+  </head>
+
+  <body>
+    <div id="main">
+      <input id="departure" class="controls" type="text" placeholder="Zadajte počiatočnú adresu">
+
+      <div id="mode-selector" class="controls">
+        <input type="radio" name="type" id="changemode-walking" checked="checked">
+        <label for="changemode-walking">Pešo</label>
+
+        <input type="radio" name="type" id="changemode-driving">
+        <label for="changemode-driving">Autom</label>
+      </div>
+    </div>
+
+    <div id="streetView"></div>
+    <div id="googleMap"></div>
+  
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8taRSrByIu9J-Y4nHt9qlplZWxdeUFiQ&libraries=places&callback=initMap">
+    </script>
+  </body>
+</html>

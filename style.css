@@ -1,0 +1,62 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding-bottom: 100px;
+}
+
+#main{
+    display: none;
+}
+
+#googleMap, #streetView {
+    float: left;
+    height: 100%;
+    width: 49%;
+}
+
+#googleMap{
+    margin-right: 10px;
+}
+
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.controls {
+    margin-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    height: 40px;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+#departure {
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 500px;
+}
+
+#mode-selector {
+    color: #fff;
+    background-color: #ff3300;
+    margin-left: 12px;
+    padding: 5px 11px 0px 11px;
+}
+
+#mode-selector label {
+    font-size: 13px;
+    font-weight: 300;
+}
